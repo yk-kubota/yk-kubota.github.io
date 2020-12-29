@@ -78,13 +78,13 @@ h1, h2, h3, h4, h5, h6 {
 
 .navbar-default {
 	border-color: transparent;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 80, 0, 0.5);
 }
 
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
   /*color: #1abc9c;*/
   color: #ffffff;
-	background-color: transparent;
+  background-color: transparent;
 }
 
 .navbar-default .navbar-nav > li > a {
@@ -391,7 +391,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Copyrights */
 
 #copyrights {
-  background: #222222;
+  background: #2f4f4f;
   padding: 20px 0;
   text-align: center;
 }
@@ -402,7 +402,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #copyrights a {
-  color: #1abc9c;
+  color: #999;
 }
 
 .credits {
