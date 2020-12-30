@@ -53,7 +53,7 @@
 
 
 body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Times New Roman', serif;
     font-weight: 400;
     font-size: 16px;
 
@@ -61,7 +61,13 @@ body {
     -webkit-overflow-scrolling: touch;
 }
 
+body strong{
+  font-family: 'Montserrat', sans-serif;
+}
+
+
 h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
 	font-weight: 700;
     color: #4a4a4a;
 }
@@ -235,6 +241,15 @@ h1, h2, h3, h4, h5, h6 {
     background-size: cover;
 }
 
+/* Publication */
+
+.publication-list{
+  text-align: left;
+}
+
+.profile-list{
+  text-align: left;
+}
 
 /* Gallery */
 .gallery {
