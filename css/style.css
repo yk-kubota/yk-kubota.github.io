@@ -17,8 +17,9 @@
 }
 
 ::selection {
-    background: #16a085;
-    color: #a4003a;
+   /* background: #16a085;*/
+    background: #cccccc;
+    /*color: #000000;*/
     text-shadow: none;
 }
 
