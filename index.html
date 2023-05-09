@@ -41,7 +41,6 @@
 </head>
 
 <body>
-
   <!-- Static navbar -->
   <div class="navbar navbar-default navbar-fixed-top" role="navigation">
     <div class="container">
@@ -91,7 +90,22 @@
       <h2>Yuki KUBOTA（久保田　祐貴）</h2>
       <p>&emsp;</p>
       
-      <img src="./img/profile1.jpg" width="250em;" alt="プロフィール写真1">
+
+      <!-- <img src="./img/profile1.jpg" width="250em;" alt="プロフィール写真1"> -->
+      <img id="profile-picture" width="250em;" alt="プロフィール写真"> 
+      <script>
+        const profilePictures = [
+         './img/profile1.jpg',
+         './img/profile2.jpg',
+         './img/profile3.jpg',
+       ];
+   
+       const randomIndex = Math.floor(Math.random() * profilePictures.length);
+       const selectedProfilePicture = profilePictures[randomIndex];
+   
+       document.getElementById('profile-picture').src = selectedProfilePicture;
+     </script>
+
       <p>&emsp;</p>
 
       <h3>PROFILE / プロフィール</h3>
@@ -221,7 +235,7 @@
   <script src="lib/php-mail-form/validate.js"></script>
 
   <!-- Template Main Javascript File -->
-  <script src="js/main.js"></script>
+  <!-- <script src="js/main.js"></script>-->
 
 </body>
 </html>
